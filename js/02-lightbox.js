@@ -9,7 +9,7 @@ const galleryContainer = document.querySelector('.gallery');
 const createitem = galleryItems
   .map(({ preview, original, description }) =>
       
-    `<li class="item">
+    `<li>
         <a class="gallery__item" href="${original}"
             style='display: block; height: 240px'>
           <img class="gallery__image" src="${preview}" alt="${description}" />
