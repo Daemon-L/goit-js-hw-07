@@ -11,7 +11,7 @@ const createitem = galleryItems
       
     `<li class="item">
         <a class="gallery__item" href="${original}"
-            style='display: inline-block; height: 240px'>
+            style='display: block; height: 240px'>
           <img class="gallery__image" src="${preview}" alt="${description}" />
         </a>
     </li>`,
