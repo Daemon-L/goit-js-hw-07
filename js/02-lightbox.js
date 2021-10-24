@@ -10,8 +10,9 @@ const createitem = galleryItems
   .map(({ preview, original, description }) =>
       
     `<li class="item">
-        <a class="gallery__item" href="${original}">
-                <img class="gallery__image" src="${preview}" alt="${description}" />
+        <a class="gallery__item" href="${original}"
+            style='display: inline-block; height: 240px'>
+          <img class="gallery__image" src="${preview}" alt="${description}" />
         </a>
     </li>`,
   )

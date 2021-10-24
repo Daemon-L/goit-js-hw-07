@@ -16,9 +16,14 @@
   margin-right: auto;
 }
 
-.gallery__item {
-  /* это я поборол 2px */
+.item {
   display: block;
+}
+
+.gallery__item {
+  /* ****************** */
+  /* display: block;
+  height: 240px; */
   /* ****************** */
   position: relative;
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14),
